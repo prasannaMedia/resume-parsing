@@ -6,5 +6,13 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     include: ['pdfjs-dist']
+  },
+  worker: {
+    format: 'es'
+  },
+  resolve: {
+    alias: {
+      'pdfjs-dist/build/pdf.worker.min.mjs': 'pdfjs-dist/build/pdf.worker.mjs'
+    }
   }
 })
