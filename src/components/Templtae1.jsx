@@ -60,7 +60,7 @@ const Template1 = ({ resumeData, isPreview = false }) => {
         {resumeData.skills && resumeData.skills.length > 0 && (
           <section className="mb-20">
             <div className="flex items-center gap-4 mb-8">
-              <h2 className="text-4xl font-bold text-gray-800">Skills</h2>
+              <h2 className="text-4xl font-bold text-gray-100">Skills</h2>
               <div className="flex-1 h-1 bg-gradient-to-r from-blue-600 to-transparent"></div>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
